@@ -9,4 +9,5 @@ Next.js: React framework for server-rendered React applications.
 React: JavaScript library for building user interfaces.
 CSS Modules: Scoped CSS to maintain modularity and avoid global scope pollution.
 
+Link - https://tanayportfolionext.netlify.app/
 
