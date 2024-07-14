@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
         <div className="sm:flex sm:gap-0">
           <div className="sm:flex-none sm:w-[60%]">
-            <div className="sm:w-[185%] w-[180%] mx-auto">
+            <div className="sm:w-[185%] w-[190%] mx-auto">
               <BackgroundGradientDemo />
             </div>
           </div>

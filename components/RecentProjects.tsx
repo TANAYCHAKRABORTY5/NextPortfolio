@@ -11,7 +11,7 @@ const RecentProjects = () => {
         My Work On Some <span className="text-purple">recent projects</span>
       </h1>
 
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24  mt-10 ">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-y-16 sm:gap-x-24 mt-10 ">
         {projects.map((item) => (
           <div
             className=" sm:h-[34rem]  lg:min-h-[24rem] h-[25rem]  flex items-center justify-center sm:w-[460px] w-[80vw]"

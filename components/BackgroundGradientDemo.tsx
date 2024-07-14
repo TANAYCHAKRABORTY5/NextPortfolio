@@ -70,7 +70,7 @@ export function BackgroundGradientDemo() {
           <div className="flex g-4 ">
             <div>
               {/* <p>Get in touch</p> */}
-              <div className="flex items-center md:gap-[380px] gap-[120px] ">
+              <div className="flex items-center md:gap-[380px] gap-[110px] ">
                 <h1 className="text-xl">Contact</h1>
 
                 <form onSubmit={handleSubmit}>
