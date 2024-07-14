@@ -20,14 +20,14 @@ const Footer = () => {
             achieve your goals.
           </p>
         </div>
-        <div className="flex gap-0">
-          <div className="flex-none w-[60%]">
-            <div className="sm:w-[165%] w-[160%] mx-auto">
+        <div className="sm:flex sm:gap-0">
+          <div className="sm:flex-none sm:w-[60%]">
+            <div className="sm:w-[185%] w-[180%] mx-auto">
               <BackgroundGradientDemo />
             </div>
           </div>
-          <div className="flex-1">
-            <div className="pt-5 w-[90%]">
+          <div className="sm:flex-1">
+            <div className="pt-5 sm:w-[90%]">
               <img
                 src="./3dimg.png"
                 alt="Coding"
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <a href="mailto:tanaywork56@gmail.com" className="sm:mt-6 md:mt-2">
+        <a href="mailto:tanaywork56@gmail.com" className="sm:mt-6 md:mt-2 mt-5">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
