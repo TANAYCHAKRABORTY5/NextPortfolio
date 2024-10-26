@@ -99,7 +99,8 @@ export function BackgroundGradientDemo() {
                 onChange={handleChange}
                 placeholder="What's your name?"
                 className="bg-[#FFF8F3] py-4 px-6 placeholder:text-secondary
-            text-white rounded-lg outlined-none border-none font-medium"
+                text-black-100
+             rounded-lg outlined-none border-none font-medium"
               />
             </label>
             <label className="flex flex-col">
@@ -111,7 +112,7 @@ export function BackgroundGradientDemo() {
                 onChange={handleChange}
                 placeholder="What's your email?"
                 className="bg-[#FFF8F3] py-4 px-6 placeholder:text-secondary
-            text-white rounded-lg outlined-none border-none font-medium"
+            text-black-100 rounded-lg outlined-none border-none font-medium"
               />
             </label>
             <label className="flex flex-col">
@@ -122,7 +123,7 @@ export function BackgroundGradientDemo() {
                 onChange={handleChange}
                 placeholder="What do you want to say?"
                 className="bg-[#FFF8F3] py-4 px-6 placeholder:text-secondary
-            text-white rounded-lg outlined-none border-none font-medium"
+            text-black-100 rounded-lg outlined-none border-none font-medium"
               />
             </label>
           </form>
